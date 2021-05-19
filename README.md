@@ -22,3 +22,8 @@ View the deployed application at: https://search-google-books-api.herokuapp.com/
 * In either the Home or Saved pages, a user can click on the View Book button. This will redirect them to the Google Books store page where they can either purchase or read a preview of the book.
 
 * If a user wants to remove a saved book from the list, they may click the Delete button to remove the book from the page. In the back end, this deletes the document from the Mongo database.
+
+# Install 
+
+* npm install
+* npm start
