@@ -5,4 +5,9 @@ An application created using the MERN stack and allows users to search for books
 View the deployed application at: https://google-books-app1.herokuapp.com/
 
 # Technologies Used
-
+* React JS
+* MongoDB
+* Mongoose
+* Express JS
+* Node
+* Axios
