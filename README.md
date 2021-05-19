@@ -12,3 +12,13 @@ View the deployed application at: https://search-google-books-api.herokuapp.com/
 * Node
 * Axios
 
+# How it works
+* Users are first directed to the Home page where they can search for any book. Book information is retrived via the publicly available Google Books API.
+
+* Upon searching for a book, users will see a list of relevant results. They can click save to save the book to the Saved page. In the back end, the book is saved to the Mongo database.
+
+* Users can save as many books as they want. If they then go to the Saved page, they'll not only see books that have been saved by them, but also previous visitor's saved books (it's basically a shared space of saved books).
+
+* In either the Home or Saved pages, a user can click on the View Book button. This will redirect them to the Google Books store page where they can either purchase or read a preview of the book.
+
+* If a user wants to remove a saved book from the list, they may click the Delete button to remove the book from the page. In the back end, this deletes the document from the Mongo database.
